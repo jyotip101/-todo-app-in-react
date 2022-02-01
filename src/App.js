@@ -11,7 +11,7 @@ const App = () => {
       <div className='bg-[#fff] m-auto max-w-xl w-full h-full'>
         <Header />
         <FormInput />
-        <h1 className=' absolute top-[30rem] '>hello</h1>
+        {/* <h1 className=' absolute top-[30rem] '>hello</h1> */}
       </div>
     </>
   )
