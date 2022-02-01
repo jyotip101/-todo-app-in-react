@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './components/Header'
+import FormInput from './components/FormInput'
+// main - #bf161d
+//  bg - #ffffff
+// font- #000000
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div className='bg-[#fff] m-auto max-w-xl w-full h-full'>
+        <Header />
+        <FormInput />
+        <h1 className=' absolute top-[30rem] '>hello</h1>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
