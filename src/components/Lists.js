@@ -3,7 +3,7 @@ import React from 'react'
 const Lists = ({ text, setCompleate, compleate }) => {
   return (
     <>
-      <div className='flex justify-start mt-[2rem] m-4 items-center '>
+      <div className='flex justify-start   m-4 items-center '>
         <input
           type='checkbox'
           name='checkbox'

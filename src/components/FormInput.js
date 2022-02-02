@@ -1,6 +1,7 @@
-import React from 'react'
-import { useState } from 'react/cjs/react.development'
+import React, { useState } from 'react'
 import Lists from './Lists'
+import Alert from './Alert'
+
 const FormInput = () => {
   const [todo, setTodo] = useState([])
   const [text, setText] = useState('')
@@ -21,7 +22,13 @@ const FormInput = () => {
 
   return (
     <>
-      <form onSubmit={handleAddButton} className='flex justify-center m-4 '>
+      <div className='w-[60%] bg-[#000] mx-auto m-y-0 '>
+        <Alert />
+      </div>
+      <form
+        onSubmit={handleAddButton}
+        className='mb-[2rem] flex justify-center m-4 mt-0'
+      >
         {/* <div className=''> */}
         <input
           type='text'
@@ -30,14 +37,10 @@ const FormInput = () => {
           id='text'
           value={text}
           onChange={(e) => setText(e.target.value)}
-          className='border-2  px-4 py-[0.5rem] max-w-[400px] w-full
-            rounded-md border-[#bf161c4d] text-[#00] font-[500] outline-none mr-4 '
+          className='border-2  px-4 py-[0.5rem] max-w-[400px] w-full rounded-md border-[#bf161c4d] text-[#00] font-[500] outline-none mr-4 '
         />
         {/* </div> */}
-        <button
-          className='bg-[#bf161d] text-[#fff] capitalize  px-4 py-[0.5rem]
-            rounded-md border-[#bf161c4d] text-[#00] font-[500] '
-        >
+        <button className='bg-[#bf161d] text-[#fff] capitalize  px-4 py-[0.5rem] rounded-md border-[#bf161c4d] text-[#00] font-[500] '>
           add
         </button>
       </form>
