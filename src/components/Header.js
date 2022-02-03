@@ -8,7 +8,7 @@ const Header = () => {
           #todo
         </h1>
 
-        <ul className='flex justify-around m-4 border-b-2 border-[#bf161c4d] text-[#00] font-[500]  '>
+        <ul className='flex justify-around m-4 mb-1 border-b-2 border-[#bf161c4d] text-[#00] font-[500]  '>
           <li className='cursor-pointer hover:text-[#bf161d] focus:text-[#bf161d]  transition capitalize px-2 border-b-4 border-[#bf161d] '>
             All
           </li>

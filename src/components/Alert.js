@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-const Alert = () => {
+const Alert = ({ color, text, showAlert, todos }) => {
+  useEffect(() => {
+    const hideAlert = setTimeout(() => {
+      showAlert()
+    }, 3000)
+    return () => clearTimeout(hideAlert)
+  }, [todos])
   return (
     <>
-      <p className={` ${'bg-[#] text[#]'} text-center `}>Enter input here</p>
+      <p className={` text-[${color}] text-center `}>{text}</p>
     </>
   )
 }
