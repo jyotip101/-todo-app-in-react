@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">#todo app</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -42,8 +42,8 @@
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Material Icons](https://fonts.googleapis.com/icon?family=Material+Icons)
 
 ## Features
 
@@ -74,12 +74,12 @@ $ npm start
 
 <!-- - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/) -->
 
-- [Node.js](https://nodejs.org/)
+<!-- - [Node.js](https://nodejs.org/) -->
 <!-- - [Marked - a markdown parser](https://github.com/chjj/marked) -->
 
 ## Contact
 
-<!--
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username}) -->
+<!-- - Website [your-website.com](https://{your-web-site-link}) -->
+
+- GitHub [@jyotip101](https://github.com/jyotip101)
+- Twitter [@jyotipatil77100](https://twitter.com/jyotipatil77100)
