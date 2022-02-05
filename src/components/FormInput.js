@@ -1,6 +1,4 @@
-import React, { useState } from 'react'
-import Lists from './Lists'
-import Alert from './Alert'
+import React from 'react'
 
 const FormInput = ({ handleAddButton, text, setText }) => {
   return (

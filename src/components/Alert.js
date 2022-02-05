@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 
-const Alert = ({ color, text, showAlert, todos }) => {
+const Alert = ({ color, bgColor, text, showAlert, todos }) => {
+  console.log(bgColor, color)
+  let c = color
   useEffect(() => {
     const hideAlert = setTimeout(() => {
       showAlert()
@@ -9,7 +11,9 @@ const Alert = ({ color, text, showAlert, todos }) => {
   }, [todos])
   return (
     <>
-      <p className={` text-[${color}] text-center `}>{text}</p>
+      <div className={`w-[60%] mx-auto ${bgColor} rounded-sm h-fit`}>
+        <p className={` ${color} text-center `}>{text}</p>
+      </div>
     </>
   )
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 
-const Lists = ({ todos, removeTodo, compleatedHandler, filterHandler }) => {
-  console.log(todos)
+const Lists = ({ todos, removeTodo, setComplate }) => {
   return (
     <>
       {todos.map((item) => {
@@ -16,16 +15,16 @@ const Lists = ({ todos, removeTodo, compleatedHandler, filterHandler }) => {
                 type='checkbox'
                 name='checkbox'
                 className='border-2  checked:border-red-500 bg-[#fff] font-[500] mr-4 '
-                onClick={() => compleatedHandler(id)}
+                onChange={() => setComplate(id)}
               />
-              <label
+              <p
                 htmlFor='checkbox'
-                className={`font-[500] ${
+                className={`  text-[#000] ${
                   compleated && 'text-[400] italic line-through '
-                } text-[100%]`}
+                } text-[100%] 'font-[500]`}
               >
                 {text}
-              </label>
+              </p>
             </div>
 
             <button className=' mr-4' onClick={() => removeTodo(id)}>
