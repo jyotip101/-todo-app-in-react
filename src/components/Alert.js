@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
 
 const Alert = ({ color, bgColor, text, showAlert, todos }) => {
-  console.log(bgColor, color)
-  let c = color
   useEffect(() => {
     const hideAlert = setTimeout(() => {
       showAlert()

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Lists = ({ todos, removeTodo, setComplate }) => {
+const Lists = ({ todos, filterTodos, removeTodo, setComplate }) => {
   return (
     <>
       {todos.map((item) => {

@@ -17,6 +17,7 @@ const App = () => {
   })
   const [todos, setTodos] = useState([])
   const [text, setText] = useState('')
+  const [filterTodos, setFilterTodos] = useState([])
 
   const handleAddButton = (e) => {
     e.preventDefault()
@@ -52,6 +53,25 @@ const App = () => {
     }
     newCompl.compleated = true
   }
+
+  const selectTodosStatus = (selectStatus) => {
+    if (selectStatus === 'all') {
+      setFilterTodos(todos)
+      return
+    }
+
+    if (selectStatus === 'active') {
+      const curTodosStatus = todos.filter((item) => item.compleated === false)
+      setFilterTodos(curTodosStatus)
+      return
+    }
+    if (selectStatus === 'completed') {
+      const curTodosStatus = todos.filter((item) => item.compleated === true)
+      setFilterTodos(curTodosStatus)
+      return
+    }
+  }
+
   const removeTodo = (id) => {
     setTodos(todos.filter((item) => item.id !== id))
     showAlert(true, 'text-[#ff0000d0]', 'bg-[#ff000028]', 'one item is deleted')
@@ -69,7 +89,7 @@ const App = () => {
   return (
     <>
       <div className='bg-[#fff] m-auto max-w-xl w-full h-full'>
-        <Header />
+        <Header selectTodosStatus={selectTodosStatus} />
 
         {alert.show && <Alert {...alert} showAlert={showAlert} />}
         <FormInput
