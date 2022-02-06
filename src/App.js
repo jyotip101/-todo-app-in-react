@@ -145,6 +145,20 @@ const App = () => {
             </div>
           </>
         )}
+        <footer className=' mt-[50%] '>
+          <p className='text-center '>
+            created by{' '}
+            <a
+              href='https://github.com/jyotip101/todo-app-in-react'
+              target='_blank'
+              className='text-[#bf161d]'
+              rel='noopener noreferrer'
+            >
+              jyoti-p
+            </a>
+            - devChallenges.io
+          </p>
+        </footer>
       </div>
 
       {/* <h1 className=' absolute top-[30rem] '>hello</h1> */}

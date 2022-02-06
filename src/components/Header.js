@@ -9,13 +9,13 @@ const Header = ({ selectTodosStatus }) => {
         </h1>
 
         <ul className='flex justify-around m-4 mb-1 border-b-2 border-[#bf161c4d] text-[#00] font-[500]  '>
-          <li className='cursor-pointer hover:text-[#bf161d] focus:text-[#bf161d]  transition capitalize px-2 border-b-4 border-[#bf161d] '>
+          <li className='transition capitalize px-2 cursor-pointer'>
             <button onClick={() => selectTodosStatus('all')}> All</button>
           </li>
-          <li className='cursor-pointer hover:text-[#bf161d] transition capitalize  '>
+          <li className='transition capitalize px-2 cursor-pointer'>
             <button onClick={() => selectTodosStatus('active')}>Active</button>
           </li>
-          <li className='cursor-pointer hover:text-[#bf161d] transition capitalize  '>
+          <li className='transition capitalize px-2 cursor-pointer'>
             <button onClick={() => selectTodosStatus('completed')}>
               Completed
             </button>
