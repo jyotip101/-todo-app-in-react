@@ -8,13 +8,13 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://{your-demo-link.your-domain}"> -->
+    <a href="https://jyotip101.github.io/todo-app-in-react/">
       Demo
-    <!-- </a> -->
+    </a>
     <span> | </span>
     <!-- <a href="https://{your-url-to-the-solution}"> -->
       Solution
-    <!-- </a> -->
+    <!-- </a> --> 
     <span> | </span>
     <a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">
       Challenge

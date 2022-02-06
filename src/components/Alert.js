@@ -9,9 +9,7 @@ const Alert = ({ color, bgColor, text, showAlert, todos }) => {
   }, [todos])
   return (
     <>
-      <div className={`w-[60%] mx-auto ${bgColor} rounded-sm h-fit`}>
-        <p className={` ${color} text-center `}>{text}</p>
-      </div>
+      <p className={` relative  ${color} text-center `}>{text}</p>
     </>
   )
 }

@@ -5,7 +5,7 @@ const FormInput = ({ handleAddButton, text, setText }) => {
     <>
       <form
         onSubmit={handleAddButton}
-        className='mb-[2rem] flex justify-center m-4'
+        className='mb-[2rem] flex justify-center m-4 mt-1'
       >
         <input
           type='text'
