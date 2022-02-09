@@ -37,6 +37,8 @@
 
 ## Overview
 
+This is an to-do app, here user can delete, add the items. User can delete all items at ones.
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
