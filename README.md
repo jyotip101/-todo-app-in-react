@@ -31,13 +31,19 @@
 - [Features](#features)
 - [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-This is an to-do app, here user can delete, add the items. User can delete all items at ones.
+In this Todo app, following things a user can do,
+
+- you can create a task
+- user can toggle between All, Active, and completed buttons
+- user can remove one or all tasks
+- Data will be going to store in local storage that when the user refreshes the page user can see his progress
+
+![todo](https://user-images.githubusercontent.com/66724598/153427323-e8010b41-499c-4964-9adc-69c9b4b37d11.png)
 
 ### Built With
 
@@ -69,15 +75,6 @@ $ npm install
 # Run the app
 $ npm start
 ```
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
-
-<!-- - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/) -->
-
-<!-- - [Node.js](https://nodejs.org/) -->
-<!-- - [Marked - a markdown parser](https://github.com/chjj/marked) -->
 
 ## Contact
 
