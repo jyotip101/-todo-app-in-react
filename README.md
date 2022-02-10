@@ -41,7 +41,10 @@ In this Todo app, following things a user can do,
 - you can create a task
 - user can toggle between All, Active, and completed buttons
 - user can remove one or all tasks
+- user will see a notification after removing, adding, try to submit empty input
 - Data will be going to store in local storage that when the user refreshes the page user can see his progress
+
+
 
 ![todo](https://user-images.githubusercontent.com/66724598/153427323-e8010b41-499c-4964-9adc-69c9b4b37d11.png)
 
